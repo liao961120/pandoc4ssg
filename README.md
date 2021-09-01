@@ -2,6 +2,10 @@
 
 This library aims to make it easy to write posts in [Pandoc's Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown) and build them to static sites with ANY Static Site Generators (SSG) you want. After specifying the directory structure (`pandoc4ssg.DirStruct`) of your static site (depends on the SSG you used) and options for compiling posts (`pandoc4ssg.PostHandler`), `pandoc4ssg` builds the site for you.
 
+```bash
+pip install pandoc4ssg
+```
+
 
 ## Hugo
 

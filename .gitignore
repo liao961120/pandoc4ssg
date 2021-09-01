@@ -1,4 +1,4 @@
 /build
-/cqls.egg-info
+*.egg-info
 /dist
 __pycache__
