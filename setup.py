@@ -5,7 +5,7 @@ with open("README.md", encoding="utf-8") as f:
 
 setup(name='pandoc4ssg',
       version='0.0.1',
-      description='Utilities for converting markdown to HTML, built for various static site generator',
+      description="Using Pandoc with Static Site Generators",
       long_description=long_description,
       long_description_content_type='text/markdown',
       url='http://github.com/liao961120/pandoc4ssg',
@@ -13,5 +13,6 @@ setup(name='pandoc4ssg',
       author_email='liao961120@github.com',
       license='MIT',
       packages=['pandoc4ssg'],
+      install_requires=['pypandoc', 'pyyaml', 'toml'],
       # tests_require=['deepdiff'],
       zip_safe=False)
